@@ -16,9 +16,10 @@ if st.button("nieve"):
     st.snow()
 st.image("https://upload.wikimedia.org/wikipedia/commons/thumb/1/12/Happy_Shrek_%28cropped%29.jpg/320px-Happy_Shrek_%28cropped%29.jpg" )
 st.html("""
-    <img href="baner.png" class="banner"> 
+    <img src="file:///image.png}" class="banner"> 
         <style> .banner{
             width= 100%
             height= 10%
             }</style>
         """)
+st.link_button("repositorio")
